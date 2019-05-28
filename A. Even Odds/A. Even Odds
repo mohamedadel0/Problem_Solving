@@ -1,0 +1,13 @@
+#http://codeforces.com/contest/318/problem/A
+
+import math
+inputList = input().split()
+n = int(inputList[0])
+k = int(inputList[1])
+odd = int(math.ceil(n / 2))
+if k <= odd:
+    print((k * 2) - 1)
+else:
+    print((k - odd) * 2)
+
+
