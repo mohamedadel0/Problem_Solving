@@ -8,4 +8,4 @@ if k <= odd:
 else:
     print((k - odd) * 2)
 
-
+ 
