@@ -1,0 +1,16 @@
+#http://codeforces.com/contest/469/problem/A
+
+unique = set()
+n = int(input())
+levelsOfx = input().split()
+levelsOfy = input().split()
+
+for i in range(1, len(levelsOfx)):
+    unique.add(int(levelsOfx[i]))
+for j in range(1, len(levelsOfy)):
+    unique.add(int(levelsOfy[j]))
+
+if len(unique) == n:
+    print("I become the guy.")
+else:
+    print("Oh, my keyboard!")
